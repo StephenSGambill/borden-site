@@ -13,7 +13,9 @@ body {
     text-align: center;
     font-family: 'Cabin', sans-serif;
     font-family: 'Playfair Display', serif;
-    
+    max-width: 1000px;
+    box-shadow: 2px 2px lightgrey;
+  
     }
     
     
@@ -41,14 +43,15 @@ img {
     background: linear-gradient(darkred, crimson);    
     color: white;
     text-shadow: 1px 1px 1px black;
+    
     }
 
 .activities-flex {
     display: flex;
-    justify-content: space-around;
-
-    padding: 20px 20px 20px 20px;
-    flex: 0 1 auto;
+    justify-content: center;
+    padding: 50px;
+    flex-grow: 1;
+    gap: 40px;
 }
 
 p {
