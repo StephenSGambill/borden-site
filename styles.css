@@ -1,86 +1,72 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Playfair Display', serif;
-    max-width: 1000px;
-    box-shadow: 2px 2px lightgrey;
-  
-    }
-    
-    
-
-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 75%;
-    box-shadow: 1px 1px 1px black;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  box-shadow: 2px 2px lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0px;
 }
 
 .hero {
-    background-image: url(images/Borden_indiana.jpeg);
-    background-position: center;
-    padding-top: 3px;
-    padding-bottom: 20px;
-    color: whitesmoke;
-    text-shadow: 1px 1px 2px black;
-    margin-bottom: 0px;
-    
+  background-image: url(images/Borden_indiana.jpeg);
+  background-position: center center;
+  color: whitesmoke;
+  width: 1100px;
 }
 
 .activities {
-    padding-top: 1px;
-    background: linear-gradient(darkred, crimson);    
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    
-    }
+  padding-top: 1px;
+  background: linear-gradient(darkred, crimson);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
 
 .activities-flex {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    flex-grow: 1;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  flex-grow: 1;
+  gap: 40px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 75%;
+  box-shadow: 1px 1px 1px black;
 }
 
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .guide {
-    background: linear-gradient(grey, lightgrey);
-    padding: 20px 20px 20px 20px;
+  background: linear-gradient(grey, lightgrey);
+  padding: 20px 20px 20px 20px;
+  width: 1060px;
 }
 
 .guide-flex {
-    background: linear-gradient(lightgrey, grey);
-    color: white; 
-    display: flex;
-    justify-content: space-evenly;
-    width: 400px;
-    padding: 20px 10px 10px 10px;
-    margin: 0px auto 10px auto ;
-    box-shadow: 2px 2px 2px black;
-    border: 1px solid grey;
-    border-radius: 10px;
-    text-shadow: 1px 1px 1px black;
-    }
+  background: linear-gradient(lightgrey, grey);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px 10px 10px;
+  margin: 0px auto 10px auto;
+  box-shadow: 2px 2px 2px black;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px black;
+  width: 400px;
+}
 
 #prof-img {
-    border-radius: 25%;
-    height: 110px;
-    width: 110px;
-    margin-top: 15px;
-    box-shadow: 1px 1px 1px darkgrey;
+  border-radius: 25%;
+  height: 110px;
+  width: 110px;
+  margin-top: 15px;
+  box-shadow: 1px 1px 1px darkgrey;
 }
